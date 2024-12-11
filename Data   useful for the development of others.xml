@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <category name="Datasets">
+    <item>
+      <name>Image Datasets</name>
+      <description>Collections of images for tasks like image classification, object detection, and image segmentation.</description>
+      <dataset>
+        <name>ImageNet</name>
+        <url>http://www.image-net.org/</url>
+        <description>Large-scale image dataset for image classification.</description>
+      </dataset>
+      <dataset>
+        <name>CIFAR-10/100</name>
+        <url>https://www.cs.toronto.edu/~kriz/cifar.html</url>
+        <description>Smaller image datasets for image classification.</description>
+      </dataset>
+      <dataset>
+        <name>MNIST</name>
+        <url>http://yann.lecun.com/exdb/mnist/</url>
+        <description>Handwritten digit recognition dataset.</description>
+      </dataset>
+      <dataset>
+        <name>COCO</name>
+        <url>https://cocodataset.org/</url>
+        <description>Object detection, segmentation, and captioning dataset.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Text Datasets</name>
+      <description>Corpora of text for natural language processing tasks like sentiment analysis, machine translation, and text summarization.</description>
+      <dataset>
+        <name>Wikipedia</name>
+        <url>https://dumps.wikimedia.org/</url>
+        <description>Large collection of text articles.</description>
+      </dataset>
+      <dataset>
+        <name>Gutenberg Project</name>
+        <url>https://www.gutenberg.org/</url>
+        <description>Collection of public domain books.</description>
+      </dataset>
+      <dataset>
+        <name>IMDB Reviews</name>
+        <url>https://ai.stanford.edu/~amaas/data/sentiment/</url>
+        <description>Movie review dataset for sentiment analysis.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Time Series Datasets</name>
+      <description>Data collected over time, often used for forecasting and anomaly detection.</description>
+      <dataset>
+        <name>Google Trends</name>
+        <url>https://trends.google.com/</url>
+        <description>Time series data of search interest.</description>
+      </dataset>
+      <dataset>
+        <name>World Bank Data</name>
+        <url>https://data.worldbank.org/</url>
+        <description>Economic and social statistics.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Geospatial Datasets</name>
+      <description>Data with location information, used for mapping, routing, and location-based services.</description>
+      <dataset>
+        <name>OpenStreetMap</name>
+        <url>https://www.openstreetmap.org/</url>
+        <description>Open-source map data.</description>
+      </dataset>
+      <dataset>
+        <name>Natural Earth Data</name>
+        <url>https://www.naturalearthdata.com/</url>
+        <description>Public domain map datasets.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Other Datasets</name>
+      <dataset>
+        <name>UCI Machine Learning Repository</name>
+        <url>https://archive.ics.uci.edu/ml/index.php</url>
+        <description>Diverse collection of datasets for machine learning.</description>
+      </dataset>
+      <dataset>
+        <name>Kaggle Datasets</name>
+        <url>https://www.kaggle.com/datasets</url>
+        <description>Datasets for various domains and competitions.</description>
+      </dataset>
+    </item>
+  </category>
+
+  <category name="Data Sources">
+    <item>
+      <name>Public Data Repositories</name>
+      <source>
+        <name>Kaggle</name>
+        <url>https://www.kaggle.com/</url>
+      </source>
+      <source>
+        <name>UCI Machine Learning Repository</name>
+        <url>https://archive.ics.uci.edu/ml/index.php</url>
+      </source>
+      <source>
+        <name>Google Dataset Search</name>
+        <url>https://datasetsearch.research.google.com/</url>
+      </source>
+    </item>
+    <item>
+      <name>APIs</name>
+      <source>
+        <name>Twitter API</name>
+        <url>https://developer.twitter.com/en/docs</url>
+      </source>
+      <source>
+        <name>Google Maps API</name>
+        <url>https://developers.google.com/maps</url>
+      </source>
+    </item>
+  </category>
+
+  <category name="Data Tools">
+    <item>
+      <name>Data Analysis Libraries</name>
+      <tool>
+        <name>Pandas (Python)</name>
+        <url>https://pandas.pydata.org/</url>
+      </tool>
+      <tool>
+        <name>NumPy (Python)</name>
+        <url>https://numpy.org/</url>
+      </tool>
+      <tool>
+        <name>R</name>
+        <url>https://www.r-project.org/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Data Visualization Tools</name>
+      <tool>
+        <name>Matplotlib (Python)</name>
+        <url>https://matplotlib.org/</url>
+      </tool>
+      <tool>
+        <name>Seaborn (Python)</name>
+        <url>https://seaborn.pydata.org/</url>
+      </tool>
+      <tool>
+        <name>Tableau</name>
+        <url>https://www.tableau.com/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Machine Learning Libraries</name>
+      <tool>
+        <name>TensorFlow</name>
+        <url>https://www.tensorflow.org/</url>
+      </tool>
+      <tool>
+        <name>PyTorch</name>
+        <url>https://pytorch.org/</url>
+      </tool>
+      <tool>
+        <name>scikit-learn (Python)</name>
+        <url>https://scikit-learn.org/stable/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Database Tools</name>
+      <description>SQL clients: DBeaver, pgAdmin, MySQL Workbench</description>
+      <description>Database management systems: PostgreSQL, MySQL, MongoDB</description>
+    </item>
+  </category>
+
+  <category name="Data Best Practices">
+    <item>
+      <name>Data Cleaning/Preprocessing</name>
+      <description>Handling missing values</description>
+      <description>Data normalization/standardization</description>
+      <description>Feature scaling</description>
+    </item>
+    <item>
+      <name>Data Exploration/Visualization</name>
+      <description>Histograms, scatter plots, box plots</description>
+      <description>Data aggregation and summarization</description>
+    </item>
+    <item>
+      <name>Data Ethics/Privacy</name>
+      <description>Anonymization techniques</description>
+      <description>Data security measures</description>
+      <description>Responsible data handling</description>
+    </item>
+  </category>
+</resources>
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <category name="Datasets">
+    <item>
+      <name>Image Datasets</name>
+      <description>Collections of images for tasks like image classification, object detection, and image segmentation.</description>
+      <dataset>
+        <name>ImageNet</name>
+        <url>http://www.image-net.org/</url>
+        <description>Large-scale image dataset for image classification.</description>
+      </dataset>
+      <dataset>
+        <name>CIFAR-10/100</name>
+        <url>https://www.cs.toronto.edu/~kriz/cifar.html</url>
+        <description>Smaller image datasets for image classification.</description>
+      </dataset>
+      <dataset>
+        <name>MNIST</name>
+        <url>http://yann.lecun.com/exdb/mnist/</url>
+        <description>Handwritten digit recognition dataset.</description>
+      </dataset>
+      <dataset>
+        <name>COCO</name>
+        <url>https://cocodataset.org/</url>
+        <description>Object detection, segmentation, and captioning dataset.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Text Datasets</name>
+      <description>Corpora of text for natural language processing tasks like sentiment analysis, machine translation, and text summarization.</description>
+      <dataset>
+        <name>Wikipedia</name>
+        <url>https://dumps.wikimedia.org/</url>
+        <description>Large collection of text articles.</description>
+      </dataset>
+      <dataset>
+        <name>Gutenberg Project</name>
+        <url>https://www.gutenberg.org/</url>
+        <description>Collection of public domain books.</description>
+      </dataset>
+      <dataset>
+        <name>IMDB Reviews</name>
+        <url>https://ai.stanford.edu/~amaas/data/sentiment/</url>
+        <description>Movie review dataset for sentiment analysis.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Time Series Datasets</name>
+      <description>Data collected over time, often used for forecasting and anomaly detection.</description>
+      <dataset>
+        <name>Google Trends</name>
+        <url>https://trends.google.com/</url>
+        <description>Time series data of search interest.</description>
+      </dataset>
+      <dataset>
+        <name>World Bank Data</name>
+        <url>https://data.worldbank.org/</url>
+        <description>Economic and social statistics.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Geospatial Datasets</name>
+      <description>Data with location information, used for mapping, routing, and location-based services.</description>
+      <dataset>
+        <name>OpenStreetMap</name>
+        <url>https://www.openstreetmap.org/</url>
+        <description>Open-source map data.</description>
+      </dataset>
+      <dataset>
+        <name>Natural Earth Data</name>
+        <url>https://www.naturalearthdata.com/</url>
+        <description>Public domain map datasets.</description>
+      </dataset>
+    </item>
+    <item>
+      <name>Other Datasets</name>
+      <dataset>
+        <name>UCI Machine Learning Repository</name>
+        <url>https://archive.ics.uci.edu/ml/index.php</url>
+        <description>Diverse collection of datasets for machine learning.</description>
+      </dataset>
+      <dataset>
+        <name>Kaggle Datasets</name>
+        <url>https://www.kaggle.com/datasets</url>
+        <description>Datasets for various domains and competitions.</description>
+      </dataset>
+    </item>
+  </category>
+
+  <category name="Data Sources">
+    <item>
+      <name>Public Data Repositories</name>
+      <source>
+        <name>Kaggle</name>
+        <url>https://www.kaggle.com/</url>
+      </source>
+      <source>
+        <name>UCI Machine Learning Repository</name>
+        <url>https://archive.ics.uci.edu/ml/index.php</url>
+      </source>
+      <source>
+        <name>Google Dataset Search</name>
+        <url>https://datasetsearch.research.google.com/</url>
+      </source>
+    </item>
+    <item>
+      <name>APIs</name>
+      <source>
+        <name>Twitter API</name>
+        <url>https://developer.twitter.com/en/docs</url>
+      </source>
+      <source>
+        <name>Google Maps API</name>
+        <url>https://developers.google.com/maps</url>
+      </source>
+    </item>
+  </category>
+
+  <category name="Data Tools">
+    <item>
+      <name>Data Analysis Libraries</name>
+      <tool>
+        <name>Pandas (Python)</name>
+        <url>https://pandas.pydata.org/</url>
+      </tool>
+      <tool>
+        <name>NumPy (Python)</name>
+        <url>https://numpy.org/</url>
+      </tool>
+      <tool>
+        <name>R</name>
+        <url>https://www.r-project.org/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Data Visualization Tools</name>
+      <tool>
+        <name>Matplotlib (Python)</name>
+        <url>https://matplotlib.org/</url>
+      </tool>
+      <tool>
+        <name>Seaborn (Python)</name>
+        <url>https://seaborn.pydata.org/</url>
+      </tool>
+      <tool>
+        <name>Tableau</name>
+        <url>https://www.tableau.com/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Machine Learning Libraries</name>
+      <tool>
+        <name>TensorFlow</name>
+        <url>https://www.tensorflow.org/</url>
+      </tool>
+      <tool>
+        <name>PyTorch</name>
+        <url>https://pytorch.org/</url>
+      </tool>
+      <tool>
+        <name>scikit-learn (Python)</name>
+        <url>https://scikit-learn.org/stable/</url>
+      </tool>
+    </item>
+    <item>
+      <name>Database Tools</name>
+      <description>SQL clients: DBeaver, pgAdmin, MySQL Workbench</description>
+      <description>Database management systems: PostgreSQL, MySQL, MongoDB</description>
+    </item>
+  </category>
+
+  <category name="Data Best Practices">
+    <item>
+      <name>Data Cleaning/Preprocessing</name>
+      <description>Handling missing values</description>
+      <description>Data normalization/standardization</description>
+      <description>Feature scaling</description>
+    </item>
+    <item>
+      <name>Data Exploration/Visualization</name>
+      <description>Histograms, scatter plots, box plots</description>
+      <description>Data aggregation and summarization</description>
+    </item>
+    <item>
+      <name>Data Ethics/Privacy</name>
+      <description>Anonymization techniques</description>
+      <description>Data security measures</description>
+      <description>Responsible data handling</description>
+    </item>
+  </category>
+</resources>
