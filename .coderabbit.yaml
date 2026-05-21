@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+reviews:
+  request_changes_workflow: true
+  high_level_summary_in_walkthrough: true
+  review_details: true
+  fail_commit_status: true
+  auto_apply_labels: true
+  auto_assign_reviewers: true
+  auto_review:
+    drafts: true
+  finishing_touches:
+    simplify:
+      enabled: true
+  pre_merge_checks:
+    override_requested_reviewers_only: true
+  tools:
+    presidio:
+      enabled: true
+
+knowledge_base:
+  code_guidelines:
+    filePatterns:
+      - "**/*.py"
+      - "**/*.ts"
+      - "**/*.js"
+      - "**/*.jsx"
+      - "**/*.md"
+  mcp:
+    usage: enabled
+  linked_repositories: []
+
+issue_enrichment:
+  auto_enrich:
+    enabled: true
